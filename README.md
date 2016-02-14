@@ -91,4 +91,5 @@ Fragment是可以被包裹在多个不同Activity内的，同时一个Activity�
          ...其他处理代码省略 
   }`
 这种方案应该是既能达到复用，又能达到很好的可维护性，并且性能也是杠杠的。但是唯一的一个遗憾是假如项目很大了，Activity与Fragment的数量也会增加，这时候为每对Activity与Fragment交互定义交互接口就是一个很头疼的问题（包括为接口的命名，新定义的接口相应的Activity还得实现，相应的Fragment还得进行强制转换）。 想看更好的解决方案请阅读原文。
+
 原文链接：[Android：Activity与Fragment通信(99%)完美解决方案](http://www.jianshu.com/p/1b824e26105b)
