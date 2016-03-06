@@ -1,5 +1,7 @@
 # ActivityCommWithFragment
+
 解决activity与fragment之间互相通信的一种方案
+
 
 参考博客：[Android：Activity与Fragment通信(99%)完美解决方案](http://www.jianshu.com/p/1b824e26105b)
 ### A. handle
