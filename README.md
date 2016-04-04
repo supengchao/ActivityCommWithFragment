@@ -18,7 +18,6 @@ Android中activity与fragment的通讯相信大家用上面的4种方案都可�
 模块化，因为模块化导致复用的好处
 ## Fragment的使用
 Fragment是可以被包裹在多个不同Activity内的，同时一个Activity内可以包裹多个Fragment，Activity就如一个大的容器，它可以管理多个Fragment。所有Activity与Fragment之间存在依赖关系。
-
 ## Activity与Fragment通信方案
 上文提到Activity与Fragment之间是存在依赖关系的，因此它们之间必然会涉及到通信问题，解决通信问题必然会涉及到对象之间的引用。因为Fragment的出现有一个重要的使命就是：模块化，从而提高复用性。若达到此效果，Fragment必须做到高内聚，低耦合。
 
